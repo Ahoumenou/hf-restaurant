@@ -1,0 +1,973 @@
+/* Font face */
+
+/* Athiti */
+
+/* athiti-light*/
+
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-light.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-light.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-light.ttf) format("truetype");
+    font-style: 200;
+    font-weight: 400;
+}
+
+/* athiti-extralight */
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-extralight.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-extralight.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-extralight.ttf) format("truetype");
+    font-style: 300;
+    font-weight: 400;
+}
+
+/* athiti-regular*/
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-regular.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-regular.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-regular.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 400;
+}
+
+/* athiti-medium */
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-medium.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-medium.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-medium.ttf) format("truetype");
+    font-style: 500;
+    font-weight: 400;
+}
+
+/* athiti-semibold*/
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-bold.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-semibold.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-semibold.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 600;
+}
+
+/* athiti-bold */
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-bold.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-bold.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-bold.ttf) format("truetype");
+    font-style: 400;
+    font-weight: bold;
+}
+
+
+/* ------------------- */
+/* Merienda */
+
+/* merienda-light*/
+
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-light.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-light.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-light.ttf) format("truetype");
+    font-style: 200;
+    font-weight: 400;
+}
+
+/* merienda-extralight */
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-extralight.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-extralight.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-extralight.ttf) format("truetype");
+    font-style: 300;
+    font-weight: 400;
+}
+
+/* merienda-regular*/
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-regular.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-regular.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-regular.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 400;
+}
+
+/* merienda-medium */
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-medium.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-medium.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-medium.ttf) format("truetype");
+    font-style: 500;
+    font-weight: 400;
+}
+
+/* merienda-semibold*/
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-semibold.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-semibold.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-semibold.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 600;
+}
+
+/* merienda-bold */
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-bold.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-bold.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-bold.ttf) format("truetype");
+    font-style: 400;
+    font-weight: bold;
+}
+
+/* merienda-black */
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-black.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-black.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-black.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 900;
+}
+
+/* *****************************************************************
+TOOLS
+***************************************************************** */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+}
+
+
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+/* Le corps du document */
+body {
+    margin: 0;
+    padding: 0;
+    
+    line-height: 1.5;
+    font-family: "athiti";
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Le titre principal d'un flux */
+h1 {
+    font-size: 3rem;
+}
+
+/* Le titre de second niveau */
+h2 {
+    font-size: 2.5rem;
+}
+
+/* Le titre de troisème niveau */
+h3 {
+    font-size: 2rem;
+}
+
+/* Les liens */
+a {
+    text-decoration: none;
+}
+
+/* Contenu principal */
+
+
+/* Les articles */
+article,
+div.parent {
+    margin-inline: auto;
+    padding-block: 1rem;
+
+    background-color: var(--clr-second);
+}
+
+/* marge entre les sections et les articles */
+
+
+
+.private section {
+    padding: 1rem;
+    text-align: justify;
+}
+
+button {
+    font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: "merienda";
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.header figcaption::before,
+.header figcaption::after,
+h2::before,
+h2::after,
+.container h3::before,
+.container h3::after,
+article>ul>li::before {
+    padding-inline: 0 1rem;
+
+    color: var(--clr-textiaire);
+
+    font-family: "Font Awesome 5 Free";
+    content: "\F005";
+    font-weight: 900;
+    font-size: 1.5rem;
+
+
+}
+
+.container img {
+    width: 100%;
+}
+
+
+
+/* *****************************************************************
+CONTAINER
+***************************************************************** */
+
+/* Le container permet de limiter la largeur d'un contenu */
+.container {
+    max-width: 1400px;
+
+    margin: auto;
+}
+
+/* Les variables */
+/* Marron : #4c4343
+Beige : #ebe3db
+Rouge : #950000 */
+:root {
+    --clr-principale: #4c4343;
+    --clr-second: #ebe3db;
+    --clr-textiaire: #950000;
+
+}
+
+
+
+/* *****************************************************************
+LES CLASSES UTILITAIRES
+***************************************************************** */
+/* .flex {
+    display: flex;
+} */
+
+.flex-jc-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-jc-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px, 1fr);
+}
+
+
+
+
+/* *****************************************************************
+MAIN LAYOUT
+***************************************************************** */
+
+/* L'entête de la page */
+header {
+    background-image: linear-gradient(to top, #fff, var(--clr-second));
+
+}
+
+.header figure>img {
+    width: 30%;
+
+    transition: all 3s;
+}
+
+.header figure>img:hover {
+    transform: scale(1.1) rotate(360deg);
+}
+
+.header {
+    flex-direction: column;
+
+    text-align: center;
+
+}
+
+.header nav ul li a {
+    width: 100vw;
+    padding-block: 1rem;
+
+    display: block;
+
+    border: 1px solid var(--clr-principale);
+    background-color: var(--clr-second);
+    color: var(--clr-principale);
+
+}
+
+.header nav ul li a:hover,
+.header nav ul li a:focus {
+    background-color: var(--clr-textiaire);
+    color: var(--clr-second);
+    transition-duration: 1s;
+}
+
+.header nav ul li a.active {
+    background-color: var(--clr-principale);
+    color: var(--clr-second);
+
+}
+
+
+/* Le pied de page */
+.info {
+    margin: 2rem 0 0 0;
+    gap: 2rem;
+
+    text-align: center;
+
+    background-image: url(../../ressources/images/footer-bg.jpg);
+    color: #fff;
+}
+
+.info section {
+    flex-basis: 370px;
+
+    text-align: center;
+}
+
+.info h3 {
+    padding-bottom: 1rem;
+
+    border-bottom: 1px dashed #fff;
+}
+
+.info a:hover,
+.info a:focus {
+    color: var(--clr-textiaire);
+}
+
+.info a,
+footer a {
+    color: #fff;
+}
+
+.footer img {
+    max-width: 50%;
+    margin: 5px auto;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.801);
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+.autor{
+    color: #950000;
+    transition-duration: 1s;
+    padding: 5px 1rem;
+}
+.autor:hover{
+    color: #1e9500;
+    background-color: #fff;
+    border: 1px dashed black;
+    border-radius: 5px;
+    
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+/* Page Home */
+
+/* slick */
+
+.parent {
+    position: relative;
+}
+
+
+.slick-next:before,
+.slick-prev:before {
+    position: absolute;
+
+    font-size: 3rem;
+}
+
+.slick-prev {
+    position: absolute;
+    left: 20px;
+    z-index: 2;
+}
+
+.slick-next:before {
+    left: -6rem;
+
+}
+
+section>article>ul>li:nth-child(2n+1) {
+    padding-block: 1rem;
+
+    border-bottom: 1px dashed var(--clr-principale);
+}
+
+section>article>ul>li:nth-child(2n+2) {
+    padding-block: 1rem;
+
+    border-bottom: 2px dotted var(--clr-principale);
+}
+
+section>article>ul>li {
+    text-align: start;
+}
+
+section>article .readmore {
+    margin: 1rem;
+    padding: 1rem;
+
+    display: block;
+
+    text-align: center;
+
+    background-color: var(--clr-principale);
+    color: var(--clr-second);
+}
+
+section>article .readmore {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome h2,
+.speciale h2,
+.speciale h3 {
+    text-align: center;
+}
+
+.welcome,
+.speciale {
+    margin-block: 2rem;
+
+    text-align: justify;
+}
+
+.speciale img {
+    width: 100%;
+}
+
+section>article .readmore>img {
+    max-width: 5%;
+
+}
+
+section>article .readmore:hover,
+section>article .readmore:focus {
+    border: 1px solid var(--clr-second);
+    background-color: var(--clr-textiaire);
+    transition-duration: 1s;
+}
+
+section>article .readmore:active {
+    background-color: var(--clr-principale);
+}
+
+section>article>img {
+    max-width: 100%;
+}
+
+.slick-dots li button:before {
+    font-size: 2rem;
+}
+
+
+/* .................................................. */
+
+/*Menu */
+[data-filter] {
+    padding: .5rem 1rem;
+    margin: 1.5rem;
+    gap: 2rem;
+
+    background-color: var(--clr-second);
+    box-shadow: 5px 5px 5px var(--clr-principale);
+
+    transition: all 1s;
+
+}
+
+button:hover,
+button:focus {
+    background-color: var(--clr-textiaire);
+    border: 1px solid var(--clr-second);
+}
+
+.center,
+.center section {
+    text-align: center;
+}
+
+
+
+
+
+/* ------------------------------------------------------------ */
+
+/* Page Contact */
+
+input {
+    width: 60%;
+    padding: 1rem .5rem;
+    margin: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form form div>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form form {
+    padding: 1rem 3rem;
+
+    background-color: var(--clr-second);
+}
+
+textarea {
+    width: 100%;
+    height: 10rem;
+    padding-left: 1rem;
+}
+
+.form form h2::before,
+.form form h2::after {
+    content: none;
+}
+
+.form h2::content {
+    content: none;
+}
+
+.form button {
+    padding: 1rem 4rem;
+
+    background-color: var(--clr-principale);
+    color: var(--clr-second);
+
+    transition: all 1s;
+}
+
+.form button:hover,
+.form button:focus {
+    background-color: var(--clr-textiaire);
+    border: 1px solid var(--clr-principale);
+}
+
+.maps {
+    margin: 2rem 1rem;
+}
+
+.maps img {
+    width: 80%;
+    margin: auto;
+
+    display: block;
+
+    border: 1px solid var(--clr-principale);
+    cursor: crosshair;
+}
+
+label::before,
+span::before {
+    max-width: 10%;
+    padding: 1rem;
+
+    content: "\F005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.5rem;
+
+    color: var(--clr-textiaire);
+    border-bottom: 1px dashed;
+
+}
+
+/* -------
+page About
+------- */
+
+video {
+    width: 80%;
+    margin: auto;
+
+    display: block;
+}
+
+.private {
+    text-align: center;
+}
+
+.private figure img {
+    transition-duration: 1s;
+}
+
+.private figure img:hover,
+.private figure img:focus {
+    transform: scale(1.05);
+}
+
+/* ----------------------------------------------------------------- */
+
+/* ------------------------- */
+/* Responsive */
+/* ------------------------- */
+
+
+/* Le contenu sur desktop a une largeur maximum de 1400px.
+Points de rupture :
+- tablette : 780px
+- desktop : 980px */
+
+
+/* ----
+    tablette
+    ---- */
+
+
+
+@media screen and (min-width:780px) {
+
+    /* Entête de page */
+
+    .header>nav>ul {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .header nav ul li a {
+        width: fit-content;
+        padding: 1rem 2rem;
+    }
+
+    /* Pied de page */
+    .info {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ---------------------
+    Page About
+    --------------------- */
+
+    article.private {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+
+    }
+
+
+    /* ------------------------
+     Page Contact
+    ------------------------ */
+
+    /* --------
+    Entête de page
+    ------ */
+    .bg_color {
+        background-color: var(--clr-second);
+    }
+
+
+
+
+    /* ----------
+     Contenue
+     ----------- */
+    form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+
+        text-align: start;
+    }
+
+    form div:nth-child(3) {
+        grid-column: 1/-1;
+        margin: 1rem;
+    }
+
+    form button {
+        width: 50%;
+        margin: auto;
+        grid-column: 1/-1;
+
+    }
+
+    .form form div>div {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        align-content: space-between;
+
+    }
+
+    .form form div>div input {
+        width: 80%;
+
+    }
+
+    /* -------------------------
+    Page menu
+    ------------------------- */
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem 1rem;
+        justify-content: center;
+    }
+
+
+
+
+    /* ------------------------
+   Page home
+   -------------------------- */
+
+
+}
+
+/* Desktop */
+@media screen and (min-width:980px) {
+
+    /* -------
+    Entête de page 
+    -------- */
+    .header {
+        flex-direction: row;
+
+        max-width: 1400px;
+        gap: 200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .header figure {
+        flex-basis: 600px;
+
+        display: flex;
+        align-items: center;
+
+        text-align: start;
+
+    }
+
+    .header nav ul {
+        flex-basis: 600px;
+        gap: 2rem;
+        margin-right: 2rem;
+    }
+
+    .header nav ul {
+        flex-basis: 50%;
+    }
+
+
+
+    /* ------------------------
+   Page home
+   -------------------------- */
+
+
+    .welcome img {
+        width: 50%;
+        margin-left: 2rem;
+
+        float: right;
+    }
+
+    .speciale {
+        height: auto;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .speciale img {
+        width: 100%;
+    }
+
+    .speciale h2 {
+        grid-column: 1/-1;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    /* ----------------------
+    Page Contact
+    ------------------- */
+
+
+    /* Entête de page */
+
+    .bg_color {
+        background-color: none;
+    }
+
+    /* -------------------------
+    Page menu
+    ------------------------- */
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem 1rem;
+        justify-content: center;
+    }
+
+
+    /* ---------------------
+    Page About
+    --------------------- */
+
+    .private {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ---------------------------
+Au survol 
+-------------------------- */
+
+
+
+
+.survol h2::before,
+.survol h2::after {
+    content: none;
+}
+
+.container-image,
+.container-image2 {
+    position: relative;
+
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+
+.text img {
+    width: 50%;
+}
+
+.survol {
+    width: 100%;
+    height: 0;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+
+    background-color: rgba(76, 67, 67, .3);
+
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.container-image:hover .survol,
+.container-image:focus .survol {
+    height: 100%;
+    top: 0;
+
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.container-image2:hover .survol,
+.container-image2:focus .survol {
+    height: 100%;
+    left: 0;
+
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    padding: .5rem 5rem;
+
+    border: 3px solid #fff;
+    color: white;
+    font-size: 20px;
+
+
+    text-align: center;
+
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

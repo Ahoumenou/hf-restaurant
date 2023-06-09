@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../ressources/images/logo.png" type="image/x-icon">
+    <title>Freshly_Restaurant</title>
+
+    <!-- Importation du feuille de style -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Importation de la page Font Awesome -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/aa21bfa790.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header flex">
+            <a href="./home.html">
+                <figure>
+                    <img src="../ressources/images/logo.png" alt="logo">
+                    <figcaption>FRESHLY RESTAURANT <br> AHOUMENOU  🚀</figcaption>
+                </figure>
+            </a>
+            <nav>
+                <ul class="bg_color">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a class="active" href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container center">
+            <section class="form">
+                <h2>Contact us</h2>
+                <p>If your want to make a reservation, please complete this form</p>
+                <h4>Fields with<span></span>are required.</h4>
+                <form method="post" class="formulaire">
+                    <div>
+                        <h2>Reservation</h2>
+                        <div>
+                            <label for="date">Date :</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div>
+                            <label for="time">Time :</label>
+                            <input type="time" name="time" id="time">
+                        </div>
+                        <div>
+                            <label for="number">Number of guests :</label>
+                            <input type="number" name="number" id="number">
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Details</h2>
+                        <div>
+                            <label for="name">Name :</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div>
+                            <label for="email">Email :</label>
+                            <input type="email" name="mail" id="email">
+                        </div>
+                        <div>
+                            <label for="telephone">Telephone :</label>
+                            <input type="tel" name="tel" id="telephone">
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Further request</h2>
+                        <textarea name="commentaire"></textarea>
+                    </div>
+                    <button type="submit">RESERVE</button>
+                </form>
+            </section>
+        </div>
+        <section class="maps">
+            <h2>Our location</h2>
+            <img src="../ressources/images/maps.jpg" alt="img">
+        </section>
+        <address class="info">
+            <section>
+                <h3>Opening hours</h3>
+                <ul>
+                    <li>Monday: Closed</li>
+                    <li>Tue-Wed : 9am - 10pm</li>
+                    <li>Thu-Fri : 9am - 10pm</li>
+                    <li>Sat-Sun : 5pm - 10pm</li>
+                </ul>
+            </section>
+            <section>
+                <h3> Contact</h3>
+                <ul>
+                    <li>AHOUMENOU Street</li>
+                    <li>Benin Ctn</li>
+                    <li>NY 10014-3543</li>
+                    <li><a href="tel:+22961433378">+229 61 433 378</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>Social networks</h3>
+                <a href="https://facebook.com/emile.abikoulejaz" class="fa fa-facebook"></a>
+                <a href="#" class="	fa fa-whatsapp"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="	fas fa-envelope-square"></a>
+            </section>
+        </address>
+    </main>
+    <footer class="footer">
+        <p><a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy"
+                    src="../ressources/images/logo-3wa.png"></a>
+        </p>
+        <p>Ce matériel pédagogique est la propriété de la <a rel="license"
+                href="https://3wa.fr/propriete-materiel-pedagogique/">3W Academy</a>. Cet exercice a été réalisé par
+                <a href="https://ahoumenouemile22@gmail.com" class="autor">Emile AHOUMENOU 🚀</a> étudiant à l'Univerty HIGHFIVE.</p>
+    </footer>
+</body>
+
+</html>
